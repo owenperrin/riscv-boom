@@ -98,6 +98,7 @@ case class BoomCoreParams(
   mcontextWidth: Int = 0,
   scontextWidth: Int = 0,
   trace: Boolean = false,
+  multithreaded: Boolean = false,
 
   /* debug stuff */
   enableCommitLogPrintf: Boolean = false,
